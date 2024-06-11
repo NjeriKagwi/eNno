@@ -1,0 +1,661 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    height: 60px;
+}
+nav .navbar-nav .nav-item a{
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+}
+
+.navbar-brand h3{
+    font-size: 32px;
+    color: gray;
+}
+
+nav .navbar-nav .nav-item a:hover{
+    color: #14c871;
+}
+
+nav .navbar-nav .btn{
+    border: 1px solid grey;
+}
+
+nav .navbar-nav .btn:hover{
+    color: white;
+    background-color: #206bfb;
+    border-color: #206bfb;
+}
+
+.navbar-scrolled{
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 12px 0;
+}
+
+
+/* Hero section */
+#hero{
+    width: 100%;
+    height: 80vh;
+    padding-top: 82px;
+    background: #fff;
+}
+
+.hero h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #3e4450;
+}
+
+.hero p{
+    font-size: 24px;
+    color: #858ea1;
+}
+
+.hero .btn-get-started{
+    border-color: #14c871;
+    background-color: #14c871;
+    color: white;
+    box-shadow: 0 8px 28px rgba(22, 223, 126, 0.45);
+}
+
+.hero .btn-get-started:hover{
+    background-color: #206bfb;
+    box-shadow: 0 8px 28px rgba(32, 107, 251, 0.45);
+}
+
+.hero .bi-play-circle{
+    color: gray;
+}
+
+.hero a {
+    text-decoration: none;
+    color: gray;
+}
+
+.hero img{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+
+/* Featured services */
+#feaured{
+    padding: 0;
+}
+
+.featured .box{
+    background-color: #f9f9fa;
+    border-color: 1px solid #f9f9fa;
+    color: #5f687b;
+    padding: 20px;
+    transition: 0.3s;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.featured .box .icon{
+    margin: 0 0 15px 0;
+}
+
+.featured .box .icon i{
+    color: #14c871;
+    font-size: 30px;
+}
+
+.featured .box .title{
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.featured .box:hover{
+    background-color: #eaecef;
+}
+
+.featured .box:hover .title h5{
+    color: #14c871;
+}
+
+.featured .description{
+    line-height: 24px;
+    font-size: 14px;
+}
+
+/* About section */
+#about{
+    margin-top: 70px;
+}
+
+#about h3{
+    font-size: 32px;
+    color: #5f687b;
+    font-weight: 700;
+}
+
+#about ul{
+    margin: 0;
+    padding: 0;
+}
+
+#about ul li i{
+    color: #14c871;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+#about ul li{
+    padding-bottom: 15px;
+}
+
+#about ul li:first-child{
+    padding-top: 15px;
+}
+
+/* About outer section */
+#about-outer{
+    margin-top: 70px;
+}
+
+.about-outer h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #14c871;
+}
+
+.about-outer p{
+    font-weight: bold;
+    /* color: #000; */
+    font-size: 14px;
+}
+
+
+/* Service section */
+#services{
+    margin-top: 70px;
+    background-color: whitesmoke;
+}
+
+#services .service-titles{
+    padding-top: 100px;
+    text-align: center;
+}
+
+#services .service-titles h2{
+    font-weight: 700;
+    color: #000;
+}
+
+#services .service-titles h6{
+    line-height: 24px;
+    font-weight: 300;
+}
+
+#services .service-content{
+    margin-top: 70px;
+}
+
+#services .box{
+    background-color: #fff;
+    width: 100%;
+    padding: 70px 20px;
+    transition: all ease-in-out 0.3s;
+    border: 1px solid #fff;
+}
+
+#services .box:hover{
+    border-color: lightgray;
+    cursor: pointer;
+}
+
+#services .box:hover .title h3{
+    color: #14c871;
+    transition: all linear 0.3s;
+}
+
+#services .box .icon{
+    margin: 0 0 15px 0;
+}
+
+#services .box .title h3{
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #222;
+}
+
+#services .box .icon i{
+    font-size: 30px;
+    color: #14c871;
+}
+
+
+/* Portfolio section */
+#portfolio{
+    margin-top: 80px;
+}
+
+#portfolio .portfolio-titles{
+    text-align: center;
+}
+
+.portfolio-titles h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #5f687b;
+}
+
+.portfolio-content{
+    margin-top: 60px;
+}
+
+.portfolio-content ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.portfolio-content ul li{
+    padding: 0 15px;
+    font-weight: 700;
+}
+
+.portfolio-content ul li:first-child{
+    color: #14c871;
+}
+
+.portfolio-content ul li:hover{
+    color: #14c871;
+}
+
+.portfolio-content img{
+    min-height: 250px;
+}
+
+.gallery{
+    column-count: 3;
+}
+
+
+@media  (max-width:768px) {
+    .gallery{
+        column-count: 3;
+    }
+}
+
+@media (max-width:576px){
+    .gallery{
+        column-count: 1;
+    }
+}
+
+@media (max-width:468){
+    .gallery{
+        column-count: 1;
+    }
+}
+
+/* .image1{
+    grid-area: image1;
+}
+
+.image2{
+    grid-area: image2;
+}
+.image3{
+    grid-area: image5;
+}
+.image4{
+    grid-area: image4;
+}
+.image5{
+    grid-area: image5;
+}
+.image6{
+    grid-area: image6;
+}
+.image7{
+    grid-area: image7;
+}
+.image8{
+    grid-area: image8;
+}
+.image9{
+    grid-area: image9;
+} */
+
+/* Testimonials section */
+#testimonials{
+    margin-top: 80px;
+    background-color: whitesmoke;
+}
+
+#testimonials .testimonials-title{
+    padding-top: 70px;
+}
+
+#testimonials .testimonials-title h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #5f687b;
+}
+
+.testimonials-content{
+    margin-top: 60px;
+}
+
+.testimoials-content .box{
+    box-sizing: content-box;
+    min-height: 320px;
+}
+
+.testimonials-content .box .testimonial p span{
+    color: #919191;
+    font-size: 40px;
+}
+
+.testimonials-content .testimonial{
+    text-align: justify;
+    position: relative;
+    z-index: 1;
+}
+
+.testimonials-content .testimonial p{
+    font-style: italic;
+    margin: 0 15px 0 15px;
+    padding: 20px 20px 60px 20px;
+    background: white;
+    position: relative;
+    border-radius: 6px;
+    z-index: 1;
+}
+
+.testimonials-content .testimonial-img img{
+    width: 90px;
+    border-radius: 50%;
+    margin: -40px 0 0 40px;
+    position: relative;
+    z-index: 2;
+    border: 6px solid #fff;
+}
+
+.testimoials-content .box h4{
+    font-size: 14px;
+    color: #999;
+    margin: 0 0 0 45px;
+}
+
+.testimoials-content .box h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 45px;
+    color: #111;
+}
+
+/* Call to action */
+#cta{
+    margin-top: 70px;
+    background-color: #14c871;
+    margin-bottom: 0;
+}
+
+#cta .cta-content{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#cta .cta-content .btn-md{
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#cta .cta-content .btn-md:hover{
+    border: 2px solid #206bfb;
+    background-color: #206bfb;
+}
+
+
+
+/* Team section */
+#team{
+    background-color: whitesmoke;
+}
+
+#team .team-titles{
+    padding-top: 80px;
+}
+
+#team .team-titles p{
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+#team .box{
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 30px 20px;
+}
+
+#team .box img{
+    min-height: 200px;
+    width: 100%;
+    margin: 0 0 30px 0;
+}
+
+#team .box .title{
+    font-size: 13px;
+}
+
+#team .box p{
+    color: #aaaaaa;
+    font-size: 14px;
+    padding-top: 10px;
+    font-style: italic;
+}
+
+#team .box .links i{
+    color: #919191;
+    transition: 0.3s;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    font-size: 20px;
+}
+
+#team .box .links{
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+#team .box .links i:hover{
+    color: #14c871;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+
+/* Contact section */
+#contact{
+    background-color: #fff;
+}
+
+#contact .contact-titles{
+    padding-top: 70px;
+}
+
+#contact .contact-titles h2{
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+#contact .contact-content{
+    margin-top: 50px;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: #14c871;
+}
+
+
+.contact-content .address:hover i,
+.contact-content .email:hover i,
+.contact-content .call:hover i
+{
+    background-color: #14c871;
+    color: #fff;
+    border-color: #14c871;
+    cursor: pointer;
+}
+
+.contact-content .address i,
+.contact-content .email i,
+.contact-content .call i{
+    color: #14c871;
+    background-color: #fff;
+    border-color: #fff;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+    padding: 4.5px 7px;
+}
+
+.contact-content h5{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #5f687b;
+}
+
+.contact-content p{
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #949cac;
+}
+
+.contact-content .btn{
+    border-color: #14c871;
+    background-color: #14c871;
+    color: #fff;
+}
+
+.contact-content .btn:hover{
+    background-color: #206bfb;
+    border-color: #206bfb;
+    color: white;
+}
+
+
+/* Footer section start! */
+#footer{
+    margin-top: 80px;
+    background-color: #f3f4f6;
+    color: #5f687b;
+    font-size: 14px;
+    position: relative;
+}
+
+#footer .footer-titles{
+    padding-top: 70px;
+}
+
+.footer-content button{
+    padding: 0 100px;
+    color: #fff;
+    background-color: #14c871;
+    border: none;
+}
+
+.input-group{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-content button:hover{
+    background-color: #206bfb;
+    color: #fff;
+}
+
+.footer-content .input-group .email{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.footer-titles h3{
+    font-weight: 700;
+    font-size: 36px;
+    color: #5f687b;
+    position: relative;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.footer-titles p{
+    font-size: 15;
+    font-style: italic;
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+
+.footer-content .socials i{
+    font-size: 18px;
+    background: #eaecef;
+    color: #5f687b;
+    padding: 8px 8px;
+    margin-right: 4px;
+    border-radius: 4px;
+    transition: 0.3s;
+
+}
+
+.footer-content .socials i:hover{
+    background-color: #14c871;
+    color: #fff;
+}
+
+.socials{
+    padding-bottom: 70px;
+}
+
+.clearfix{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    border-top: 1px solid #d9dce2;
+}
+
+.back-to-top{
+    padding: 6.5px 10px;
+    border-color: #16df7e;
+    background-color: #16df7e;
+    color: #fff;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.back-to-top:hover{
+    background: #33eb92;
+    color: #fff;
+}
+
+.back-to-top a{
+    color: #fff;
+}
